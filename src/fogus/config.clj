@@ -22,7 +22,7 @@
 
 (defn read-config
   "Usage:
-      (config-reader \"/path/to/cfg.edn\" :as :edn)
+      (read-config \"/path/to/cfg.edn\" :as :edn)
   "
   [from _ format]
   (with-open [rdr (-reader from)]
